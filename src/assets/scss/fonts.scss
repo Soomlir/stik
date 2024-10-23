@@ -1,0 +1,9 @@
+@each $weight in (400, 500, 700) {
+	@font-face {
+		font-weight: $weight;
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-display: swap;
+		src: url('/fonts/helvetica-#{$weight}.woff2') format('woff2');
+	}
+}
